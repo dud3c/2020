@@ -1,0 +1,171 @@
+@font-face
+{
+    font-family: "Main Font";
+    src: url('https://cieran.uk/test/unik2.woff') format('woff'),
+         url('https://cieran.uk/test/unik2.ttf') format('truetype');
+}
+
+h1 
+{
+    color: #e0e0e0;
+    font-family: "Main Font", Verdana, Tahoma;
+    text-align: center;
+    font-size: 320px;
+}
+html 
+{
+    min-width: 100vw;
+	scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(99vh);
+	scroll-snap-type: y mandatory;
+	padding: 0;
+    margin: 0;
+}
+body 
+{
+    overflow-x: hidden;
+    min-width: 100vw;
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+#phoneVid
+{
+	scroll-snap-align: start;
+    position: absolute;
+    width: 31vw;
+    height: 37vw;
+    left: 8vw;
+    top: 900px;
+}
+#phone1Vid
+{
+	scroll-snap-align: start;
+    position: relative;
+    width: 23vw;
+    height: 29vw;
+    right: -69.3vw;
+    top: -4vw;
+}
+#downloadImg
+{
+	position: absolute;
+    height: 2vw;
+    margin-left: -2vw;
+    margin-top: -0.5vw;
+}
+#phoneImg
+{
+    scroll: hidden;
+    position: absolute;
+    width: 47vw;
+    height: 38vw;
+    top: 890px;
+}
+#phone1Img
+{
+    scroll: hidden;
+    position: relative;
+    width: 47vw;
+    height: 38vw;
+    top: 0vw;
+    right: -31.5vw;
+}
+#appDescription
+{
+	font-family: "Main Font", Verdana, Tahoma;
+	font-size: 34px;
+	position: relative;
+    margin-left: 45vw;
+    margin-top: 250px;
+}
+#appMetric
+{
+    font-family: "Main Font", Verdana, Tahoma;
+	position: relative;
+	height: 2vw;
+    margin-left: 48vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    text-align: center;
+    font-size: 25px;
+}
+#appTitle
+{
+    font-family: "Main Font", Verdana, Tahoma;
+	position: relative;
+    margin-left: 45vw;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+#appTitle1
+{
+    font-family: "Main Font", Verdana, Tahoma;
+	position: relative;
+    margin-left: -35vw;
+    margin-top: -33vw;
+    text-align: center;
+    font-size: 50px;
+}
+#appDescription1
+{
+    font-family: "Main Font", Verdana, Tahoma;
+	font-size: 34px;
+	position: relative;
+    margin-left: 1vw;
+    margin-right: 35vw;
+    margin-top: 250px;
+    text-align: right;
+    margin-bottom: 10vw;
+}
+#social
+{
+    height: 2vw;
+	width: 2vw;
+}
+#section2
+{
+    min-width: 100vw;
+    background-color: #FFFFFF;
+    margin-top: -5px;
+    height: auto;
+}
+#section3
+{
+    min-width: 100vw;
+    scroll-snap-align: start;
+    background-color: #969696;
+    margin-top: -5px;
+    height: 40vw;
+}
+#topCloud
+{
+    min-width: 100vw;
+    margin: 0;
+    background-size: auto;
+    background-image: url("cloud2.png");
+    background-repeat: repeat-x;
+}
+#topScroll
+{
+    scroll-snap-align: start;
+}
+div
+{
+    word-break: break-word;
+    overflow-x: hidden;
+}
+p
+{
+    word-break: break-word;
+    overflow-x: hidden;
+}
+footer
+{
+    scroll-snap-align: start;
+    background-color: #262626;
+}
+
